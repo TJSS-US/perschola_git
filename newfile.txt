@@ -23,3 +23,17 @@ git commit -m “Your 2nd message about the commit”
 Or 
 
 Git commit -a -m “Your 2nd message about the commit” → This option allows you to skip the staging phase. The addition of -a will automatically stage any files that are already being tracked by Git (changes to files that you have committed before).
+
+
+6.	Create a new branch and switch to a new branch
+git branch my-new-branch         // create a new branch
+git branch                                           // show all list of branches
+git checkout my-new-branch   // switch master branch to new branch
+git branch                                     // show all list of branches
+
+
+7.	Make changes in newfile.txt
+Let's add new content or some lines in the newfile.txt, and then try to commit new content on the git repository; however, this time, all changes will be saved on the new branch.
+git add newfile.txt
+git commit -m “add changes in txt file and commit in new branch”
+
