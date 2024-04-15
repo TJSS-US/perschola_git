@@ -1,0 +1,9 @@
+Part 1: Local repository
+1.	Create a local Git repository
+When creating a new project on your local machine using Git, you will first create a new repository (or often, 'repo', for short).  
+To initialize a git repository in the root of the folder, run the git init command.
+
+git init          
+2.	Create a new file in the repo
+Create a new file for the project using any text editor. Let’s just create and save a blank file named newfile.txt. 
+Once you have created or modified files in a folder containing a git repo, git will notice that the file exists inside the repo. But git will not track the file unless you explicitly tell it to. Git only saves/manages changes to files that it tracks, so we will need to send a command to confirm that yes, we want git to track our new file.
